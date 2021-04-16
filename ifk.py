@@ -19,6 +19,7 @@ def IKinem(X, Y, Z):
     z0 =Z;
     theta2 = IKinemTh(x0,y0,z0);
     
+    x0 =X*math.cos(2*pi/3) - Y*math.sin(2*pi/3);
     y0 =Y*math.cos(2*pi/3) + X*math.sin(2*pi/3);
     z0 = Z;
     theta3 = IKinemTh(x0,y0,z0);
